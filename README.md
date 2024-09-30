@@ -26,19 +26,22 @@ Please Download the PCPNet dataset from "https://geometry.cs.ucl.ac.uk/projects/
 
 
 To Train the model use
+```bash
 	- python main.py
-
+```
 To Validate the model select the test dataset list in the "val.py" file and use
-	- python val.py
-
+```bash
+ - python val.py
+```
 To reconstruct meshes of random objects, select the random object point cloud and normal files and use
-	- python reconstruct_meshes.py
-
+```bash	
+ - python reconstruct_meshes.py
+```
 To reconstruct CARLA town run
+```bash
 	- python reconstruct_carla_town.py
-
+```
 To run the simulation in CARLA
-
 
 1. Install CARLA simulator in your device.
 
