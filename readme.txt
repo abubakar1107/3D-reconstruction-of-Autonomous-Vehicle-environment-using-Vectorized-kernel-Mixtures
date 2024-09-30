@@ -1,9 +1,26 @@
-Team Members
+# 3D reconstruction of Autonomous Vehicle environment using Vectorized kernel Mixtures
 
-- Abubakar Siddiq Palli | DirectoryID: absiddiq | UID: 120403422
-- Gayatri Davuluri | DirectoryID: gayatrid | UID: 120304866
-- Srividya Ponnada | DirectoryID: sponnada | UID: 120172748
-
+This report presents an innovative approach for
+3D reconstruction of autonomous vehicle environments using
+raw point cloud data, leveraging the Vectorized Kernel Mixture
+(VecKM [1]) method developed by Dehao Yuan, PhD scholar
+at the University of Maryland. VecKM is distinguished by its
+unparalleled efficiency, robustness to noise, and enhanced local
+geometry encoding capabilities. Our methodology encompasses
+data acquisition and preprocessing and environment reconstruction through advanced feature extraction and deep learning
+models. We validated the predicted normals against ground
+truth normals using the PCPNet dataset, demonstrating VecKM’s
+superior performance in terms of accuracy, computational cost,
+memory efficiency, and robustness to noise. The results indicate
+that VecKM significantly improves the processing and interpretation of point cloud data, thereby advancing autonomous vehicle
+technology by providing more accurate environment perception
+and reliable navigation capabilities. This project sets a new
+standard for point cloud data analysis in the field of autonomous
+systems. We have also implemented this algorithm on the point
+cloud data collected by simulating an autonomous vehicle in an
+environment in CARLA simulator. After the data is collected,
+using the VecKM we have predicted the normals of that Point
+cloud data.
 
 Please Download the PCPNet dataset from "https://geometry.cs.ucl.ac.uk/projects/2018/pcpnet/" and place it in the "VecKM" folder
 
