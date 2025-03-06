@@ -59,12 +59,12 @@ Here are some images showcasing different aspects of the project:
 
 ### **1. LiDAR Sensor Data in CARLA**
 This image shows the **LiDAR visualization** while collecting point cloud data in the **CARLA simulator**.
-![LiDAR Visualization](images/carla_lidar_image.png)
+![LiDAR Visualization](carla_lidar_image.png)
 
 ### **2. CARLA Town Scene**
 This is the environment where the **autonomous vehicle** collected data.
-![CARLA Town Scene](images/carla_town.png)
+![CARLA Town Scene](carla_town.png)
 
 ### **3. Predicted Normals of the Scene**
 The **VecKM model** was used to predict the **surface normals** from point cloud data.
-![Predicted Normals](images/town_normals.png)
+![Predicted Normals](town_normals.png)
