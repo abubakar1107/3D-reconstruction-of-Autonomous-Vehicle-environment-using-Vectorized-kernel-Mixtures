@@ -53,3 +53,18 @@ To run the simulation in CARLA
 4. Make sure you wait before running the script until the carla server is fully initialized. (This may take some time). This will open a pygame window and the simulation can be visualized in the simulator
 
 This will create a point cloud file "town3_carla_data.xyz", copy and paste it in the VecKM folder and run the "reconstruct_carla_town.py" to reconstruct the part of Carla town. 
+
+## **Visualization**
+Here are some images showcasing different aspects of the project:
+
+### **1. LiDAR Sensor Data in CARLA**
+This image shows the **LiDAR visualization** while collecting point cloud data in the **CARLA simulator**.
+![LiDAR Visualization](images/carla_lidar_image.png)
+
+### **2. CARLA Town Scene**
+This is the environment where the **autonomous vehicle** collected data.
+![CARLA Town Scene](images/carla_town.png)
+
+### **3. Predicted Normals of the Scene**
+The **VecKM model** was used to predict the **surface normals** from point cloud data.
+![Predicted Normals](images/town_normals.png)
